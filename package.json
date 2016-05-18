@@ -1,0 +1,29 @@
+{
+  "name": "node-chat",
+  "version": "1.0.0",
+  "description": "Simple web based chatting software built with node.js and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesGu14/node-chat.git"
+  },
+  "keywords": [
+    "node.js",
+    "socket.io",
+    "chat"
+  ],
+  "author": "James Gu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesGu14/node-chat/issues"
+  },
+  "homepage": "https://github.com/JamesGu14/node-chat#readme",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.4.6"
+  }
+}
